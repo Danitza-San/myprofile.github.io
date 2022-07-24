@@ -1,0 +1,117 @@
+/* Clases */
+.display-1{
+    font-size: 3rem;
+}
+/* barra de navegador*/
+.navbar-home{
+    height: 10%;
+}
+
+/* Showcase*/
+#showcase{
+    height: 100%;
+    padding: 50px 0 20px 0;
+}
+
+
+.showcase-row{
+    flex-wrap: wrap;
+}
+
+.showcase-row-title{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Acerca*/
+#acerca{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#acerca h2 {
+    padding-bottom: 30px;
+}
+
+
+.acerca-row{
+    text-align: center;
+    display: flex;
+    flex-direction: column;	
+    justify-content: space-between;  
+    align-items: center; 
+}
+.acerca-row-image img{
+ 
+    height: auto;
+    padding: 0px;
+}
+#acerca hr{
+    width: 100%;
+}
+/*habilidades*/
+#habilidades{
+    padding: 50px 0;
+    text-align: center;
+}
+#habilidades h2{
+    padding-bottom: 30px;
+}
+
+
+.habilidades-row-left-image,
+.habilidades-row-right-image{
+    padding-right: 20px;
+}
+
+.habilidades-row-left-image img,
+.habilidades-row-right-image img{
+    height: 60px;
+}
+
+.habilidades-row-left-text h4,
+.habilidades-row-right-text h4{
+    font-size: 16px;
+}
+
+.habilidades-row-left-text p,
+.habilidades-row-right-text p{
+    text-align: left;
+}
+
+/*portafolio*/
+
+#portafolio{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#portafolio h2{
+    padding-bottom: 30px;
+}
+
+.portafolio-row{
+    flex-wrap: wrap;
+}
+
+/*contacto*/
+
+#contacto{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contacto h2{
+    padding: 30px;
+}
+
+.contacto-form{
+    width: 100%;
+}
+
+#imglogin{
+
+    width: 250px;
+  }
